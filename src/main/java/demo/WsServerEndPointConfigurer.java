@@ -8,10 +8,7 @@ public class WsServerEndPointConfigurer extends Configurator{
 
 	@Override
 	public <T> T getEndpointInstance(Class<T> clazz) throws InstantiationException {
-		//return super.getEndpointInstance(clazz);
 		return (T) wsServer;
 	}
-	
-	
 
 }
